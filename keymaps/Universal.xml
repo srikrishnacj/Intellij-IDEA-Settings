@@ -110,7 +110,9 @@
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
-  <action id="EditorEscape" />
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="ESCAPE"/>
+  </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta equals" />
   </action>
@@ -232,7 +234,9 @@
   <action id="GotoSymbol" />
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration" />
-  <action id="HideActiveWindow" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift ESCAPE"/>
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
