@@ -111,7 +111,7 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorEscape">
-    <keyboard-shortcut first-keystroke="ESCAPE"/>
+    <keyboard-shortcut first-keystroke="escape" />
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta equals" />
@@ -235,10 +235,11 @@
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration" />
   <action id="HideActiveWindow">
-    <keyboard-shortcut first-keystroke="shift ESCAPE"/>
+    <keyboard-shortcut first-keystroke="shift escape" />
   </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="shift escape" />
   </action>
   <action id="HideSideWindows" />
   <action id="HighlightUsagesInFile" />
