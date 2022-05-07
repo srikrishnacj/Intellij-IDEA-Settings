@@ -28,7 +28,9 @@
   <action id="ClassNameCompletion" />
   <action id="CloseActiveTab" />
   <action id="CloseContent" />
-  <action id="CodeCompletion" />
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="CodeInspection.OnEditor" />
   <action id="CollapseAll" />
   <action id="CollapseAllRegions" />
@@ -75,7 +77,9 @@
   </action>
   <action id="EditorAddOrRemoveCaret" />
   <action id="EditorAddRectangularSelectionOnMouseDrag" />
-  <action id="EditorBackSpace" />
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditorChooseLookupItem" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
@@ -88,23 +92,33 @@
   <action id="EditorContextInfo" />
   <action id="EditorCreateRectangularSelection" />
   <action id="EditorCutLineEnd" />
-  <action id="EditorDelete" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
   <action id="EditorDeleteToWordEnd" />
   <action id="EditorDeleteToWordStart" />
-  <action id="EditorDown" />
-  <action id="EditorDownWithSelection" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
-  <action id="EditorEnter" />
   <action id="EditorEscape" />
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta equals" />
+  </action>
   <action id="EditorIndentSelection" />
   <action id="EditorJoinLines" />
-  <action id="EditorLeft" />
-  <action id="EditorLeftWithSelection" />
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
   <action id="EditorLineEnd" />
   <action id="EditorLineEndWithSelection" />
   <action id="EditorLineStart" />
@@ -126,8 +140,9 @@
   <action id="EditorPasteSimple" />
   <action id="EditorPreviousWord" />
   <action id="EditorPreviousWordWithSelection" />
-  <action id="EditorRight" />
-  <action id="EditorRightWithSelection" />
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
@@ -145,8 +160,9 @@
   <action id="EditorToggleInsertState" />
   <action id="EditorUnSelectWord" />
   <action id="EditorUnindentSelection" />
-  <action id="EditorUp" />
-  <action id="EditorUpWithSelection" />
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
   <action id="EvaluateExpression" />
   <action id="Exit" />
   <action id="ExpandAll" />
@@ -176,8 +192,6 @@
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup" />
-  <action id="Find" />
-  <action id="FindInPath" />
   <action id="FindNext" />
   <action id="FindPrevious" />
   <action id="FindUsages" />
@@ -201,10 +215,14 @@
   <action id="GotoBookmark8" />
   <action id="GotoBookmark9" />
   <action id="GotoChangedFile" />
-  <action id="GotoClass" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="GotoCustomRegion" />
   <action id="GotoDeclaration" />
-  <action id="GotoFile" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="GotoImplementation" />
   <action id="GotoLine" />
   <action id="GotoNextError" />
@@ -215,7 +233,9 @@
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration" />
   <action id="HideActiveWindow" />
-  <action id="HideAllWindows" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="HideSideWindows" />
   <action id="HighlightUsagesInFile" />
   <action id="HippieBackwardCompletion" />
@@ -238,10 +258,19 @@
   <action id="Move" />
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
-  <action id="MoveLineDown" />
-  <action id="MoveLineUp" />
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="NewElement" />
   <action id="NewElementSamePlace" />
   <action id="NewScratchFile" />
@@ -276,9 +305,9 @@
   <action id="Refactorings.QuickListPopupAction" />
   <action id="ReformatCode" />
   <action id="Refresh" />
-  <action id="RenameElement" />
-  <action id="Replace" />
-  <action id="ReplaceInPath" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="Rerun" />
   <action id="RerunTests" />
   <action id="ResizeToolWindowDown" />
