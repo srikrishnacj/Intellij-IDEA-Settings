@@ -29,7 +29,7 @@
   <action id="CloseActiveTab" />
   <action id="CloseContent" />
   <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="meta enter" />
+    <keyboard-shortcut first-keystroke="meta space" />
   </action>
   <action id="CodeInspection.OnEditor" />
   <action id="CollapseAll" />
@@ -40,7 +40,9 @@
   <action id="CollapseSelection" />
   <action id="CollapseTreeNode" />
   <action id="CommentByBlockComment" />
-  <action id="CommentByLineComment" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Compile" />
   <action id="CompileDirty" />
@@ -80,7 +82,6 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="EditorChooseLookupItem" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorChooseLookupItemReplace" />
@@ -88,7 +89,9 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
-  <action id="EditorCompleteStatement" />
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="EditorContextInfo" />
   <action id="EditorCreateRectangularSelection" />
   <action id="EditorCutLineEnd" />
@@ -152,7 +155,6 @@
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine" />
   <action id="EditorStartNewLineBefore" />
-  <action id="EditorTab" />
   <action id="EditorTextEnd" />
   <action id="EditorTextEndWithSelection" />
   <action id="EditorTextStart" />
@@ -221,7 +223,9 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="GotoCustomRegion" />
-  <action id="GotoDeclaration" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
@@ -251,7 +255,9 @@
   <action id="IntroduceConstant" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
-  <action id="IntroduceVariable" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift meta v" />
+  </action>
   <action id="JumpToLastChange" />
   <action id="JumpToLastWindow" />
   <action id="MaintenanceAction" />
@@ -300,6 +306,9 @@
   <action id="PreviousProjectWindow" />
   <action id="PreviousTab" />
   <action id="PreviousTemplateVariable" />
+  <action id="ProblemsView.QuickFixes">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="ProjectViewChangeView" />
   <action id="QuickChangeScheme" />
   <action id="QuickEvaluateExpression" />
@@ -338,7 +347,9 @@
   <action id="ShowErrorDescription" />
   <action id="ShowExecutionPoint" />
   <action id="ShowFilePath" />
-  <action id="ShowIntentionActions" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="ShowNavBar" />
   <action id="ShowPopupMenu" />
   <action id="ShowProjectStructureSettings" />
