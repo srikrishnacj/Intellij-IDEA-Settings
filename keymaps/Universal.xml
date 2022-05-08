@@ -269,8 +269,12 @@
   <action id="MethodUp" />
   <action id="MinimizeCurrentWindow" />
   <action id="Move" />
-  <action id="MoveElementLeft" />
-  <action id="MoveElementRight" />
+  <action id="MoveElementLeft">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="MoveElementRight">
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
