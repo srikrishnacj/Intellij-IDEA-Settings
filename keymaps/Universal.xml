@@ -293,7 +293,9 @@
   <action id="NextSplitter" />
   <action id="NextTab" />
   <action id="NextTemplateVariable" />
-  <action id="OptimizeImports" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl meta i" />
+  </action>
   <action id="OverrideMethods" />
   <action id="ParameterInfo" />
   <action id="PasteMultiple" />
@@ -317,7 +319,9 @@
   <action id="RecentChangedFiles" />
   <action id="RecentFiles" />
   <action id="Refactorings.QuickListPopupAction" />
-  <action id="ReformatCode" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
   <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift alt r" />
