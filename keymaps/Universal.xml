@@ -329,7 +329,8 @@
   </action>
   <action id="Refresh" />
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="meta g" />
+    <keyboard-shortcut first-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="Rerun" />
   <action id="RerunTests" />
