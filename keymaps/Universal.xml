@@ -244,8 +244,7 @@
     <keyboard-shortcut first-keystroke="shift escape" />
   </action>
   <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="alt f" />
-    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="meta escape" />
   </action>
   <action id="HideSideWindows" />
   <action id="HighlightUsagesInFile" />
@@ -368,6 +367,9 @@
   <action id="ShowUsages" />
   <action id="SmartStepInto" />
   <action id="SmartTypeCompletion" />
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="StepInto" />
   <action id="StepOut" />
   <action id="StepOver" />
