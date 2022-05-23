@@ -102,7 +102,7 @@
   </action>
   <action id="EditorDelete">
     <keyboard-shortcut first-keystroke="back_space" />
-    <keyboard-shortcut first-keystroke="shift back_space" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta y" />
